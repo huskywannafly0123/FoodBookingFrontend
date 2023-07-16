@@ -1,0 +1,72 @@
+.oneItem{
+    display: flex;
+    justify-content: space-around;
+}
+.foodImage{
+    width: 71px;
+    height: 71px;
+    border:1px solid rgb(203, 202, 202);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.checkFood{
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(165, 165, 165);
+}
+.checkFoodDiv{
+    display: flex;
+    align-items: center;
+}
+.foodPart{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pricePart{
+}
+.horizonLine {
+    border-top-width: 1px;
+    border-top-style: dashed;
+    opacity: 0.2;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.foodName{
+    font-weight: 600;
+    font-size: 16px;
+}
+.quantityText{
+    
+    color: #57647e;
+    font-size: 12px;
+}
+.quantitySelect{
+    margin-top: 5px;
+    margin-left: 8px;
+    height: 30px;
+    width: 45px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid rgb(165, 165, 165);
+}
+.descriptionDiv{
+    margin-top: 4px;
+}
+.priceText{
+    font-weight: 700;
+    float: right;   
+}
+.pricePart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.subtotalText{
+    color: #585858;
+    font-weight: 500;
+    font-size: 14px;
+}
+.menuText{
+    margin-left: 65px;
+    font-size: 22px;
+}

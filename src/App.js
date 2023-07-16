@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import logo from './img/logo.png';
+import Menu from './components/foodbooking/Menu'
 
 function App() {
+  document.body.style = 'background: #27272a;';
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img src={logo} id='AppLogo'/>
+      <h1 id='AppTitle'>Lunch Order Form</h1>
+      <Menu/>
     </div>
   );
 }

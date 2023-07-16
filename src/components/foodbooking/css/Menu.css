@@ -1,0 +1,15 @@
+.totalPrice{
+    font-weight: 700;
+    text-align: end;
+    margin-right: 50px;
+}
+.horizonLineMenu{
+    border-top-width: 1px;
+    border-top-style: dashed;
+    opacity: 0.2;
+}
+.paymentButtonDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
