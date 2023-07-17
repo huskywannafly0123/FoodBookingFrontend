@@ -1,6 +1,6 @@
 import "./css/FoodItem.css";
-import { useState } from "react";
-function FoodItem({id,name,price,url}) {
+import { useEffect, useState } from "react";
+function FoodItem({id,name,price,url,handleSubTotalPrice}) {
   const [quantity,setQuantity] = useState(1);
   const [subtotal,setSubtotal] = useState(0);
   function quantityChange(event){
@@ -19,6 +19,10 @@ function FoodItem({id,name,price,url}) {
       setSubtotal(0);
     }
   }
+
+  useEffect(()=>{
+    handleSubTotalPrice(subtotal);
+  },[subtotal]);
   return (
     <div>
       <div className="oneItem">
